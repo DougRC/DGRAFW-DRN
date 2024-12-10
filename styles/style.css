@@ -1,0 +1,100 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+
+}
+
+header {
+    background-color: #504238;
+    color: #ffffff;
+
+    padding: 0.5rem 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+.Menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu li {
+    margin: 0;
+}
+
+.Menu a {
+   color: #ffffff; 
+   text-decoration: none;
+   font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+.Produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.Produtos { 
+    text-align: center;
+}
+
+.Produtos img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #504238;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
